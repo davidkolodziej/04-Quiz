@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Disha's Quiz</title>
+    <meta name="Simple static quiz" content="Simple static quiz">
+    <title>WebApiQuiz</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="./highscore.html">View Highscores</a>
+        </nav>
+        <aside>
+            Time: <span id="timer">0</span>
+        </aside>
+    </header>
+
+    <main>
+        <h1 id="quiz-header">Coding Quiz Challenge! </h1>
+
+        <section id="starting-section">
+            <p>Try to answer the following code related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 10 seconds!</p></p>
+            <button id="start-button">Start Quiz</button>
+        </section>
+
+        <section id="questions" hidden>
+            <button id="answer1"></button>
+            <button id="answer2"></button>
+            <button id="answer3"></button>
+            <button id="answer4"></button>
+        </section>
+
+        <section id="quiz-results" hidden>
+            <p>Your final score is: <span id="results"></span> </p>
+            
+            <div class="input-group">
+                <label for="initials">Initials:</label>
+                <input id="initials"></input>
+                <button id="submit">Submit</button>
+            </div>
+        </section>
+<!---------temp_result is temporary results-------->
+        <section id="temp-results" hidden>
+            <hr>
+            <p id="wrong" hidden>Wrong!</p>
+            <p id="correct" hidden>Correct!</p>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
