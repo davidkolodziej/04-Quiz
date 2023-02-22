@@ -1,0 +1,91 @@
+main h1{
+    text-align: center;
+    color: rgb(120, 146, 49);
+    font-size: 18;
+    font-family: "Times New Roman", Times, serif;
+    padding: 20px 30px 10px 30px;
+}
+section p {
+    text-align: center;
+    color: rgb(222, 34, 34);
+    font-size: 20;
+    font-family: "Times New Roman", Times, serif;  
+    padding: 10px 50px 10px 50px;
+}
+
+aside {
+    float: right;
+}
+
+nav {
+    float: left
+}
+
+main {
+    float: left;
+    padding: 10%;
+    padding-top: 2%;
+    align-items: center;
+}
+
+#starting-section button {
+    display: grid;
+    margin: auto;
+    background-color: rgb(197, 72, 197);
+    cursor: pointer;
+    color: rgb(5, 0, 0);
+
+}
+
+#questions button:hover {
+    background-color: rgb(51, 125, 199);
+}
+
+#questions button {
+    display: grid;
+    align-content: center;
+    padding: 1%;
+    background-color: rgb(153, 69, 153);
+    margin-top: 2%;
+    color: white;
+
+}
+
+.input-group {
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.input-group button {
+    padding: 0 3%;
+    margin-left: 5%
+}
+
+/* highscores */
+#highscores {
+    float: none;
+}
+ol{
+    display: inline;
+}
+li {
+    background-color: rgb(153, 69, 153);
+    list-style-position: inside;
+    padding-left: .2em;
+    margin-bottom: 5%;
+}
+
+#back-button {
+    background-color: rgb(153, 69, 153);
+   color: white;
+}
+
+#clear{
+    background-color: rgb(153, 69, 153);
+    color: white; 
+}
+
+#submit {
+    background-color: rgb(153, 69, 153);
+   color: white;
+}
